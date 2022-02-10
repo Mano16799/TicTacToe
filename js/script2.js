@@ -63,6 +63,7 @@ function printX(i, e) {
         ) {
             alert("Congratulations " + currentPlayer + "! You won the game")
             winMessageCount++;
+            reset();
         }
     }
 
